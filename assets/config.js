@@ -15,8 +15,8 @@ const config = {
     ],
 
     PROJECTS: [
-        { id: "project-1", image: "assets/img/partner.png", link: "https://discord.com", name: "Essa página aqui." },
-        { id: "project-2", image: "assets/img/raccstore.jpg", link: "https://discord.gg/yuHQkZuY8m", name: "Minha lojinha de contas." }
+        { id: "project-1", image: "assets/img/partner.png", link: "https://github.com/Niximkk/Nixim-Discord-Profile", name: "Esse site aqui." },
+        { id: "project-2", image: "assets/img/raccstore.jpg", link: "https://discord.gg/yuHQkZuY8m", name: "Minha loja de contas." }
     ],
 
     SOCIALS: [
