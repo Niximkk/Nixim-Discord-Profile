@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="vue-managed">🌸 Nixim o Guaxinim#0666</title>
-    <link rel="icon" type="image/x-icon" href="./assets/img/partner.ico">
+    <title id="vue-managed">{{ username }}</title>
+        
     <script src="https://kit.fontawesome.com/6e5392ed44.js" crossorigin="anonymous"></script>
     <!-- Import Vue.js -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
@@ -18,6 +17,12 @@
 <body>
     <div class="box profile">
         <div class="top-part">
+            <button id="Partybtn" class="Partybtn" onclick="Partybtn();">Party Mode 🎉
+                <audio controls autoplay hidden="">
+                    <source src="./assets/audios/IHAAAA.mp3" type="audio/mp3">
+                  </audio>
+                </button>
+                <br>
             <img class="profile-picture" v-bind:src="profile_picture" alt="Profile Picture" />
             <p class="name">{{ username }}</p>
             <ul class="badges">
@@ -43,11 +48,12 @@
             </ul>
         </div>
     </div>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
     <script src="./assets/config.js"></script>
     <script src="./assets/app.js"></script>
+    <script src="./assets/confetti.js"></script>
 
 </body>
 </html>
