@@ -20,18 +20,18 @@ function basic(){
     var end = Date.now() + (111 * 1000);
   
   // go Buckeyes!
-  var colors = ['#6064f4', '#ffffff', '#f595be'];
+  var colors = ['#6064f4', '#ffffff'];
   
   function frame() {
     confetti({
-      particleCount: 3,
+      particleCount: 2,
       angle: 60,
       spread: 55,
       origin: { x: 0 },
       colors: colors
     });
     confetti({
-      particleCount: 3,
+      particleCount: 2,
       angle: 120,
       spread: 55,
       origin: { x: 1 },
